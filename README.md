@@ -35,7 +35,7 @@ This project is a simple math game implemented on an AVR microcontroller. The ga
 
 #### Flow of the Game
 
-1. **Start the Game**: Display the first problem (`8 + ?? = 13`) and initialize the timer.
+1. **Start the Game**: Display the first problem and initialize the timer.
 2. **Player Input**: The player enters their answer using the keypad.
 3. **Check Time Limit**: The program checks if 10 seconds have passed.
 4. **Evaluate Answer**: 
