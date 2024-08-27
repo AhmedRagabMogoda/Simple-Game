@@ -32,7 +32,6 @@ This project is a simple math game implemented on an AVR microcontroller. The ga
 - **Timer0 CTC Mode**: Configured to generate an interrupt every 10 ms using the formula `OCR0 = 80` with a prescaler of 1024. This provides a timer tick of 0.128 ms and a compare match every `80 * 0.128 ms = 10.24 ms`, approximately 10 ms.
 - **Interrupt Service Routine (ISR)**: `ISR(TIMER0_COMP_vect)` increments a counter (`flag1`) every 10 ms. When `flag1` reaches 1000 (equivalent to 10 seconds), the game detects a timeout, setting `flag2` to indicate time over.
 
-
 #### Flow of the Game
 
 1. **Start the Game**: Display the first problem and initialize the timer.
