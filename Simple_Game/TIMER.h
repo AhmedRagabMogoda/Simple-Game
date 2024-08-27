@@ -11,7 +11,6 @@
 #include "macro_function.h"
 #include <avr/interrupt.h>
 
-
 void TIMER0_normal_init_with_interrupt(void);
 
 void TIMER0_CTC_init_with_interrupt(void);
